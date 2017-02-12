@@ -6,7 +6,7 @@ using namespace std;
 /*
 	print string character by character
 */
-void printString(string str){
+void printString(string &str){
 	for(auto c: str){
 		cout << c << " ";
 	}
