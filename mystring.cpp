@@ -3,10 +3,18 @@
 
 using namespace std;
 
+/*
+	print string character by character
+*/
+void printString(string str){
+	for(auto c: str){
+		cout << c << " ";
+	}
+	cout << endl;
+}
+
 int main(){
 	string str("helloworld");
-	for(auto c: str){
-		cout << c << endl;
-	}
+	printString(str);
 	return 0;
 }
