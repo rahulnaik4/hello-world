@@ -4,11 +4,11 @@
 using namespace std;
 
 /*
-	print string character by character
+	print string character by character without space
 */
 void printString(string &str){
 	for(auto c: str){
-		cout << c << " ";
+		cout << c;
 	}
 	cout << endl;
 }
