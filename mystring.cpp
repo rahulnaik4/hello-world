@@ -3,6 +3,9 @@
 
 using namespace std;
 
+/*
+	returns the size of the string.
+*/
 unsigned int countSize(string &str){
 	return str.size();	
 }
