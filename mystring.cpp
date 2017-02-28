@@ -3,6 +3,10 @@
 
 using namespace std;
 
+unsigned int countSize(string &str){
+	return str.size();	
+}
+
 /*
 	print string character by character without space
 */
