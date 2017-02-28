@@ -4,7 +4,7 @@
 using namespace std;
 
 /*
-	print string character by character
+	print string character by character.
 */
 void printString(string str){
 	for(auto c: str){
