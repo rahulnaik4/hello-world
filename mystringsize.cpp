@@ -3,6 +3,9 @@
 
 using namespace std;
 
+/*
+	This functione return the string size.
+*/
 unsigned int findStringSz(string &str){
 	return str.size();
 }
